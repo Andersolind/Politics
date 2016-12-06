@@ -354,7 +354,7 @@ $(document).ready(function () {
 
             var thisVotes = '';
 
-            if (description.isElected === true && partyCode.indexOf(description.partyCode) !== -1) {
+            if (description.isElected === true) {
                 bodyElement += '<li style=color:' + partyCodeKeys[description.partyCode] + ' >' + description.name + ' Votes: ' + description.votes + '</li>';
             } else {
                 bodyElement += '<li>' + description.name + ' ' + description.votes + '</li>';
