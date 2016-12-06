@@ -2,6 +2,7 @@ $(document).ready(function () {
 
     var bodyElement = '';
 
+	
     var partyCodeKeys =
         {
             NDP: 'orange',
